@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 0;
+    margin-left: 0%;
+    font-family: 'Oleo Script', cursive;
+}
+
+.portifolio {
+    color: #F3DAB7;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+.portifolio:hover {
+    color: #ffffff00;
+}
+
+.social {
+    width: 25px;
+    height: 25px;
+    padding: 20%;
+}
+
+.centroSocial {
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    font-size: 20px;
+    text-decoration: none;
+    color: #5C8AC4;
+    float: right;
+    padding-right: 4%;
+    margin-top: -30px;
+}
+
+.inicio {
+    padding: 1%;
+    margin: 0px;
+    background-image: url('imagens/home-bg.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.estudante {
+    display: flex;
+    justify-content: center;
+    padding: 52px 0;
+    color: #FEFFFE;
+    font-size: 1.2rem;
+}
+
+.meuNome {
+    display: flex;
+    justify-content: center;
+    color: #FEFFFE;
+    font-size: 2rem;
+}
+
+.breveDescricao {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    padding: 20px 20%;
+    color: #e2b500;
+    font-size: 1.3rem;
+    text-align: center;
+}
