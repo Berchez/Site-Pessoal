@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 * {
+    overflow-x: hidden;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,15 +12,19 @@ body {
     font-family: 'Oleo Script', cursive;
 }
 
+a {
+    color: #4386F4;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .portifolio {
     color: #F3DAB7;
     font-size: 30px;
     text-decoration: none;
     margin-left: 2%;
-}
-
-.portifolio:hover {
-    color: #ffffff00;
 }
 
 .social {
@@ -58,7 +63,8 @@ body {
 .estudante {
     display: flex;
     justify-content: center;
-    padding: 52px 0;
+    padding-top: 12%;
+    padding-bottom: 2%;
     color: #FEFFFE;
     font-size: 1.2rem;
 }
@@ -74,8 +80,114 @@ body {
     display: flex;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: center;
-    padding: 20px 20%;
+    padding: 4% 20% 3% 20%;
     color: #e2b500;
     font-size: 1.3rem;
     text-align: center;
+    line-height: 150%;
+}
+
+.divBotaoProjetos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.textoBotaoProjetos {
+    font-family: 'Oleo Script', cursive;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0%;
+    text-align: center;
+    box-shadow: none;
+    font-size: 1.2rem;
+}
+
+.botao {
+    background-color: #5E8BC5;
+    width: 230px;
+    height: 100%;
+    border-radius: 5%;
+    border: none;
+}
+
+.interesses {
+    padding: 1%;
+    margin: 0px;
+    background-color: #FEFEFF;
+    height: 115vh;
+    width: 100vw;
+}
+
+.interessesText {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: #000000;
+    font-size: 2.7rem;
+}
+
+.interessesTituloCard {
+    padding: 3%;
+    font-size: 1.5rem;
+}
+
+.card2col {
+    display: inline-flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 1.5%;
+}
+
+.card {
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+    height: 35vh;
+    width: 30vw;
+    margin-right: 1%;
+    margin-left: 1%;
+    overflow-y: hidden;
+}
+
+.interessesConteudoCard {
+    padding: 15px;
+    font-size: 1.3rem;
+}
+
+.escolariedade {
+    padding: 1%;
+    margin: 0px;
+    background-color: #1D1D1C;
+    height: 100vh;
+    width: 100vw;
+}
+
+.escolariedadeText {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: #ffffff;
+    font-size: 2.7rem;
+    margin-bottom: 50px;
+}
+
+.escolariedadeTitulo {
+    margin-left: 3%;
+    color: #EEEEEF;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.escolariedadeConteudo {
+    margin-left: 3%;
+    color: #EEEEEF;
+    font-size: 1.17rem;
+    font-weight: 400;
+    margin-top: 15px;
+    padding-right: 8%;
+    line-height: 180%;
+    margin-bottom: 10%;
 }
