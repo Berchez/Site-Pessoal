@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 * {
     overflow-x: hidden;
     box-sizing: border-box;
@@ -9,11 +9,11 @@
 body {
     margin-top: 0;
     margin-left: 0%;
-    font-family: 'Oleo Script', cursive;
+    font-family: "Oleo Script", cursive;
 }
 
 a {
-    color: #4386F4;
+    color: #4386f4;
 }
 
 a:hover {
@@ -21,7 +21,7 @@ a:hover {
 }
 
 .portifolio {
-    color: #F3DAB7;
+    color: #f3dab7;
     font-size: 30px;
     text-decoration: none;
     margin-left: 2%;
@@ -42,7 +42,7 @@ a:hover {
 .home {
     font-size: 20px;
     text-decoration: none;
-    color: #5C8AC4;
+    color: #5c8ac4;
     float: right;
     padding-right: 4%;
     margin-top: -30px;
@@ -51,7 +51,7 @@ a:hover {
 .inicio {
     padding: 1%;
     margin: 0px;
-    background-image: url('imagens/home-bg.jpg');
+    background-image: url("imagens/home-bg.jpg");
     height: 100vh;
     width: 100vw;
     background-position: center;
@@ -65,20 +65,20 @@ a:hover {
     justify-content: center;
     padding-top: 12%;
     padding-bottom: 2%;
-    color: #FEFFFE;
+    color: #fefffe;
     font-size: 1.2rem;
 }
 
 .meuNome {
     display: flex;
     justify-content: center;
-    color: #FEFFFE;
+    color: #fefffe;
     font-size: 2rem;
 }
 
 .breveDescricao {
     display: flex;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     justify-content: center;
     padding: 4% 20% 3% 20%;
     color: #e2b500;
@@ -95,7 +95,7 @@ a:hover {
 }
 
 .textoBotaoProjetos {
-    font-family: 'Oleo Script', cursive;
+    font-family: "Oleo Script", cursive;
     text-decoration: none;
     color: #ffffff;
     padding: 0%;
@@ -105,7 +105,7 @@ a:hover {
 }
 
 .botao {
-    background-color: #5E8BC5;
+    background-color: #5e8bc5;
     width: 230px;
     height: 100%;
     border-radius: 5%;
@@ -115,7 +115,7 @@ a:hover {
 .interesses {
     padding: 1%;
     margin: 0px;
-    background-color: #FEFEFF;
+    background-color: #fefeff;
     height: 115vh;
     width: 100vw;
 }
@@ -159,8 +159,8 @@ a:hover {
 .escolariedade {
     padding: 1%;
     margin: 0px;
-    background-color: #1D1D1C;
-    height: 100vh;
+    background-color: #1d1d1c;
+    height: 120vh;
     width: 100vw;
 }
 
@@ -176,18 +176,69 @@ a:hover {
 
 .escolariedadeTitulo {
     margin-left: 3%;
-    color: #EEEEEF;
+    color: #eeeeef;
     font-size: 1.5rem;
     font-weight: 400;
+    padding-left: 3%;
 }
 
 .escolariedadeConteudo {
     margin-left: 3%;
-    color: #EEEEEF;
-    font-size: 1.17rem;
+    color: #eeeeef;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-top: 15px;
     padding-right: 8%;
     line-height: 180%;
     margin-bottom: 10%;
+    padding-left: 3%;
+}
+
+.contato {
+    padding: 1%;
+    margin: 0px;
+    background-color: #262836;
+    height: 85vh;
+    width: 100vw;
+}
+
+.contatoEsquerdo {
+    display: flex;
+    width: 40%;
+    margin-top: 7%;
+    height: 210px;
+    float: left;
+}
+
+.contatoDireito {
+    display: flex;
+    margin-top: 7%;
+    padding-left: 5%;
+    flex-direction: column;
+}
+
+.contatoText {
+    color: #fefeff;
+    font-size: 3rem;
+}
+
+.contatoConteudo {
+    color: #fefeff;
+    padding-top: 5%;
+    font-size: 1.4rem;
+    line-height: 220%;
+    padding-right: 15%;
+    max-width: 50ch;
+}
+
+.copyRightText {
+    display: flex;
+    justify-content: center;
+    padding: 1.5%;
+}
+
+@media screen and (min-width: 610px) {
+    .content {
+        width: 35vw;
+    }
 }
