@@ -14,10 +14,12 @@ body {
 
 a {
     color: #4386f4;
+    cursor: help;
 }
 
 a:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .portifolio {
@@ -116,7 +118,7 @@ a:hover {
     padding: 1%;
     margin: 0px;
     background-color: #fefeff;
-    height: 115vh;
+    height: 100%;
     width: 100vw;
 }
 
@@ -141,14 +143,33 @@ a:hover {
     padding-bottom: 1.5%;
 }
 
+@media screen and (max-width: 792px) {
+    .card2col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+}
+
 .card {
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.6);
     transition: 0.3s;
-    height: 35vh;
+    border: 2px solid #e2b500;
+    height: 280px;
     width: 30vw;
     margin-right: 1%;
     margin-left: 1%;
     overflow-y: hidden;
+}
+
+@media screen and (max-width: 792px) {
+    .card {
+        padding: 0px;
+        width: 60vw;
+        margin-bottom: 5%;
+    }
 }
 
 .interessesConteudoCard {
@@ -160,7 +181,7 @@ a:hover {
     padding: 1%;
     margin: 0px;
     background-color: #1d1d1c;
-    height: 120vh;
+    height: 100%;
     width: 100vw;
 }
 
@@ -198,16 +219,31 @@ a:hover {
     padding: 1%;
     margin: 0px;
     background-color: #262836;
-    height: 85vh;
+    height: 100%;
     width: 100vw;
+    padding-bottom: 150px;
 }
 
 .contatoEsquerdo {
+    margin-left: 15%;
+    padding-right: 5%;
     display: flex;
-    width: 40%;
+    width: 25%;
     margin-top: 7%;
-    height: 210px;
+    height: 25%;
     float: left;
+}
+
+@media screen and (max-width: 792px) {
+    .contatoEsquerdo {
+        display: flex;
+        flex-direction: row;
+        float: none;
+        width: 40%;
+        margin-top: 7%;
+        height: 40%;
+        margin-left: 30%;
+    }
 }
 
 .contatoDireito {
@@ -231,14 +267,21 @@ a:hover {
     max-width: 50ch;
 }
 
+@media screen and (max-width: 792px) {
+    .contatoText {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .contatoConteudo {
+        padding-left: 20%;
+        font-size: 1.5rem;
+    }
+}
+
 .copyRightText {
     display: flex;
     justify-content: center;
     padding: 1.5%;
-}
-
-@media screen and (min-width: 610px) {
-    .content {
-        width: 35vw;
-    }
 }
